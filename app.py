@@ -54,7 +54,7 @@ def main():
         if output[0] == 1: 
          st.success('Animal will get adopted :thumbsup:')
         else: 
-         st.error('Animal wont get adopted :thumbsdown:') 
+         st.error("Animal won't get adopted :thumbsdown:") 
 
      
 if __name__=='__main__': 
