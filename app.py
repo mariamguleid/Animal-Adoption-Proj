@@ -17,13 +17,13 @@ def predict_animal(age_upon_outcome_days,intake_year,Mixed_breed,Purebred,Bird,C
 def main(): 
       # giving the webpage a title 
     st.title('Predicting Animal Adoption')
-    st.markdown('Enter information about an animal to predict whether the animal will get adopted or not.')
+    st.markdown('Enter information about an animal to predict whether the animal will get adopted or not. (Enter 0 for no and 1 for yes)')
       
     # the following lines create text boxes in which the user can enter  
     # the data required to make the prediction 
-    age_upon_outcome_days = st.text_input("age_upon_outcome_days","Type Here")
-    intake_year = st.text_input("intake_year","Type Here")
-    time_in_shelter_days = st.text_input("time_in_shelter_days","Type Here")
+    age_upon_outcome_days = st.text_input("Age upon adoption (in days):","Type Here")
+    intake_year = st.text_input("Year animal was brought to shelter:","Type Here")
+    time_in_shelter_days = st.text_input("Time spent in shelter (in days):","Type Here")
     Mixed_breed = st.text_input("Mixed breed","Type Here")
     Purebred = st.text_input("Purebred","Type Here")
     Bird = st.text_input("Bird","Type Here")
